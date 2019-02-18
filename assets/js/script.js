@@ -1,9 +1,9 @@
 (function() {
 
-    var message = "Hello, World!";
+  userName = prompt("Quel est ton prénom ?");
 
-    alert(message);
+  alert("Bonjour " + userName + " !");
 
-    // your code here
+  // récupération du prénom du visiteur pour un accueil interractif
 
 })();
