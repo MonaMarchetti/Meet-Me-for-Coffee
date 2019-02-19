@@ -1,8 +1,8 @@
 (function() {
 
-  userName = prompt("Quel est ton prénom ?");
+  userName = prompt("What's your name ?");
 
-  alert("Bonjour " + userName + " !");
+  alert("Hello " + userName + " !");
 
   // récupération du prénom du visiteur pour un accueil interractif
 
