@@ -8,6 +8,19 @@ main {
   background-color: white;
   color: #583014;
 }
+
+#booh {
+  color: white;
+}
+
+.alert {
+  width: 60%;
+  margin: auto;
+  background-color: #f9d9a8;
+  color: #583014;
+  border: solid #583014 1px;
+}
+
 /* The animation code */
 @keyframes appear {
   0%   {opacity: 0; width: 10%; margin: auto;}
@@ -44,6 +57,10 @@ h2, h5 {
   margin: auto;
 }
 
-span, .form-group {
+.form-group {
   color: #583014;
+}
+
+#welcome1, #welcome2, #target {
+background-color: #f9d9a8;
 }

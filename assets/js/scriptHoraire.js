@@ -1,15 +1,10 @@
 (function() {
 
-// récupération du prénom du visiteur pour un accueil interractif
-
-  //userName = prompt("What's your name ?");
-
-  //alert("Hello " + userName + " !");
-
-//affichage avec un 0 devant
+//affichagage des minutes avec un 0 devant
       function pad2(number) {
       return (number < 10 ? '0' : '') + number;
       }
+
 // ouverture/fermeture en fonction de l'heure
 
       var d = new Date();
@@ -30,7 +25,8 @@
 
       var minute = d.getMinutes();
 
-      document.getElementById("welcome").innerHTML = (jour + " " + datec + " " + mois + " " + annee + ", " + heure + "h" + pad2(minute));
+      document.getElementById("welcome1").innerHTML = (jour + " " + datec + " " + mois + " " + annee)
+      document.getElementById("welcome2").innerHTML = (heure + "h" + pad2(minute));
 
       if (heure < 18 && minute < 30) {
         document.getElementById("target").innerHTML = "ouvert <i class='fas fa-heart'></i> ";
