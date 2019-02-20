@@ -12,41 +12,72 @@
   <!--my CSS-->
   <link rel="stylesheet" href="assets/css/style.css">
 
+  <!--fontawesome-->
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" style="color: #f9d9a8" href="assets/img/coffee-solid.svg">Meet me for Coffee</a>
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="carte.html">Carte</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="photos.html">Photos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="restaurants.html">Restaurants</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
+  <main>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #583014;">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" style="color: #f9d9a8" href="#"><i class='fas fa-mug-hot'></i> Meet me for Coffee <i class='fas fa-cookie-bite'></i></a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="carte.html">Carte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="photos.html">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="restaurants.html">Restaurants</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <section class="formulaire">
+      <form>
+      <div class="form-group">
+        <label for="formGroupExampleInput1">Nom</label>
+        <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Hal">
       </div>
-    </nav>
-  </header>
-
-  <div>
-    contacts
-  </div>
-
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Prénom</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="2001">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Addresse e-mail</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Hal.2001@gmail.com">
+        <small id="emailHelp" class="form-text text-muted">Nous ne transmettrons jamais votre e-mail.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Nature de votre demande</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>Réservation d'une salle</option>
+          <option>Livraison en entreprise</option>
+          <option>Goûter d'anniversaire</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Laissez-nous un message <i class='fas fa-marker'></i></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+      </div>
+      <button type="submit" class="btn">Envoyer <i class='fas fa-paper-plane'></i></button>
+    </form>
+    </section>
+</main>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
