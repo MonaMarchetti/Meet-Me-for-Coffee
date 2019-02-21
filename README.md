@@ -29,7 +29,7 @@ Projet terminé
 
 lien des consignes : <https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Restaurant_Bootstrap>
 
-lien github page : <https://monamarchetti.github.io/bootstrap-resto-website/>
+lien github page : Chttps://monamarchetti.github.io/bootstrap-resto-website/>
 
 ## Aperçu du site :
 
@@ -37,7 +37,7 @@ lien github page : <https://monamarchetti.github.io/bootstrap-resto-website/>
 
 ## Crédits photos :
 
-Toutes les pĥotos viennent du site Unsplash. Voici la liste des photographes:
+Toutes les pĥotos viennent du site ![Unsplash](<https://unsplash.com/search/photos/coffee>). Voici la liste des photographes:
 
 + Alexander Gilbertson
 
