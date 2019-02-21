@@ -22,14 +22,13 @@
 </head>
 
 <body>
-    <main>
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #583014;">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" style="color: #f9d9a8" href="#"><i class='fas fa-mug-hot'></i> Meet me for Coffee <i class='fas fa-cookie-bite'></i></a>
+            <a class="navbar-brand" style="color: #f9d9a8" href="index.html"><i class='fas fa-mug-hot'></i> Meet me for Coffee <i class='fas fa-cookie-bite'></i></a>
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Accueil</a>
@@ -51,6 +50,7 @@
         </nav>
       </header>
 
+      <main>
       <section class="carousel">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -60,13 +60,22 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="assets/img/chris-barbalis-229388-unsplash.jpg" alt="First slide">
+              <img class="d-block w-100" src="assets/img/catherine.jpg" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                    <p>Meet me for Coffee <i class='fas fa-at'></i> Sainte-Catherine</p>
+              </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="assets/img/frank-mckenna-127336-unsplash.jpg" alt="Second slide">
+              <img class="d-block w-100" src="assets/img/jourdan.jpg" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                    <p>Meet me for Coffee <i class='fas fa-at'></i> Jourdan</p>
+              </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="assets/img/pexels-photo-1477851.jpeg" alt="Third slide">
+              <img class="d-block w-100" src="assets/img/flagey.jpg" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                    <p>Meet me for Coffee <i class='fas fa-at'></i> Flagey</p>
+              </div>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -80,53 +89,77 @@
       </div>
     </section>
 
-    <section class="material">
-        <p>Nous sommes le <span id="welcome1">Change-moi !</span>, <br>
-        il est <span id="welcome2">Change-moi !</span>
-        le restaurant est donc <span id="target">Change-moi !</span></p>
-
+    <section class="horaire text-center">
+      <div>
+        <p>Nous sommes le <span id="welcome1">Change-moi !</span>,<br>
+        il est <span id="welcome2">Change-moi !</span><br>
+        tous nos bars<br>
+        sont donc <span id="target">Change-moi !</span></p>
+      </div>
     </section>
 
-    <section class="restos">
+    <section class="restos text-center">
       <div class="row">
         <div class="col-12 col-md-4">
-              <h2>Sainte-Catherine</h2>
-              <h5>Plan d'accès <i class='fas fa-map-marker-alt'></i></h5>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10077.495660426852!2d4.3515635999999995!3d50.842759799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c3863e02e6df%3A0x160b83265dba47bf!2sSainte+Catherine!5e0!3m2!1sfr!2sbe!4v1550652402364"
-              frameborder="0" style="border: solid #f9d9a8 2px; border-radius: 5px" allowfullscreen></iframe>
-              <h5>Adresse</h5>
-              <p>Sainte Catherine<br>
-              1000 Bruxelles
-              </p>
+              <hr>
+              <h2>Meet me for Coffee<br><i class='fas fa-at'></i> Sainte-Catherine</h2>
+              <hr>
               <h5>Ouvert</h5>
               <p>Du Lundi au Samedi<br>
-              De 9h à 18h
+              De 8h à 17h30</p>
+              <hr>
+              <h5>Adresse</h5>
+              <p>13, Place Sainte-Catherine<br>
+              1000 Bruxelles
+              </p>
+
+              <hr>
+              <h5>Plan d'accès <i class='fas fa-map-marker-alt'></i></h5>
+              <div style="width: 100%">
+                <iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=13%2C%20Place%20Sainte-Catherine%201000%20Bruxelles+(Meet%20me%20for%20Coffee%20%40%20Sainte-Catherine)&amp;ie=UTF8&amp;t=&amp;z=21&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                  <a href="https://www.maps.ie/map-my-route/">Draw map route</a>
+                </iframe>
+              </div>
         </div>
         <div class="col-12 col-md-4">
-              <h2>Sainte-Catherine</h2>
-              <h5>Plan d'accès <i class='fas fa-map-marker-alt'></i></h5>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10077.495660426852!2d4.3515635999999995!3d50.842759799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c3863e02e6df%3A0x160b83265dba47bf!2sSainte+Catherine!5e0!3m2!1sfr!2sbe!4v1550652402364"
-              frameborder="0" style="border: solid #f9d9a8 2px; border-radius: 5px" allowfullscreen></iframe>
-              <h5>Adresse</h5>
-              <p>Sainte Catherine<br>
-              1000 Bruxelles
-              </p>
+              <hr>
+              <h2>Meet me for Coffee<br><i class='fas fa-at'></i> Jourdan</h2>
+              <hr>
               <h5>Ouvert</h5>
               <p>Du Lundi au Samedi<br>
-              De 9h à 18h
+              De 8h à 17h30</p>
+              <hr>
+              <h5>Adresse</h5>
+              <p>23, Place Jourdan<br>
+              1040 Etterbeek
+              </p>
+              <hr>
+              <h5>Plan d'accès <i class='fas fa-map-marker-alt'></i></h5>
+                <div style="width: 100%">
+                  <iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=23%2C%20Place%20Jourdan%201040%20Etterbeek+(Meet%20me%20for%20Coffee%20%40%20Flagey)&amp;ie=UTF8&amp;t=&amp;z=21&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    <a href="https://www.maps.ie/map-my-route/">Create route map</a>
+                  </iframe>
+                </div>
         </div>
         <div class="col-12 col-md-4">
-              <h2>Sainte-Catherine</h2>
-              <h5>Plan d'accès <i class='fas fa-map-marker-alt'></i></h5>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10077.495660426852!2d4.3515635999999995!3d50.842759799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c3863e02e6df%3A0x160b83265dba47bf!2sSainte+Catherine!5e0!3m2!1sfr!2sbe!4v1550652402364"
-              frameborder="0" style="border: solid #f9d9a8 2px; border-radius: 5px" allowfullscreen></iframe>
-              <h5>Adresse</h5>
-              <p>Sainte Catherine<br>
-              1000 Bruxelles
-              </p>
+              <hr>
+              <h2>Meet me for Coffee<br><i class='fas fa-at'></i> Flagey</h2>
+              <hr>
               <h5>Ouvert</h5>
               <p>Du Lundi au Samedi<br>
-              De 9h à 18h
+              De 8h à 17h30</p>
+              <hr>
+              <h5>Adresse</h5>
+              <p>33, Place Eugène Flagey<br>
+              1050 Ixelles
+              </p>
+              <hr>
+              <h5>Plan d'accès <i class='fas fa-map-marker-alt'></i></h5>
+              <div style="width: 100%">
+                <iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=33%2C%20Place%20Flagey%201050%20Ixelles+(Meet%20me%20for%20Coffee%20%40%20Flagey)&amp;ie=UTF8&amp;t=&amp;z=21&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                  <a href="https://www.maps.ie/map-my-route/">Map a route</a>
+                </iframe>
+              </div>
         </div>
       </div>
     </section>

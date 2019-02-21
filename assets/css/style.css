@@ -5,7 +5,7 @@ body {
 main {
   width: 60%;
   margin: auto;
-  background-color: white;
+  background-color: #f9d9a8;
   color: #583014;
 }
 
@@ -13,54 +13,87 @@ main {
   color: white;
 }
 
-.alert {
-  width: 60%;
-  margin: auto;
-  background-color: #f9d9a8;
-  color: #583014;
-  border: solid #583014 1px;
-}
-
 /* The animation code */
 @keyframes appear {
-  0%   {opacity: 0; width: 10%; margin: auto;}
-  100% {opacity: 1; width: 100%; margin: auto;}
+  0%   {opacity: 0; width: 10%; margin: 5% auto;}
+  100% {opacity: 1; width: 100%; margin: 5% auto;}
 }
 
 /* The element to apply the animation to */
-.jumbotron {
-  background-color: white;
+.jumbotron-fluid {
+  background-color: #f9d9a8;
+
   /*animation*/
-  -webkit-animation: appear 3s;
-  animation: appear 3s;
+
+  -webkit-animation: appear 1s;
+  animation: appear 1s;
   animation-timing-function: linear;
+}
+
+#jumbo, .img-fluid {
+  border-radius: 5px;
+}
+
+blockquote {
+  font-size: 16pt;
 }
 
 .list-group-item {
   background-color: black;
   color: white;
-  border: solid white 1px;
+  border: solid white 2px;
 }
 
 h2, h5 {
   margin: auto;
   color: #583014;
+  font-weight: bold;
 }
 
-.badge, .btn {
+.badge {
   background-color: #f9d9a8;
   color: #583014;
 }
 
-.material, .restos, #carouselExampleIndicators, .formulaire {
+/*.material, #carouselExampleIndicators {
   width: 60%;
   margin: auto;
+}*/
+
+.horaire, .presentation {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+hr {
+  border: solid white 1px;
 }
 
 .form-group {
   color: #583014;
 }
 
+.carousel-caption, .btn {
+  background-color: #583014;
+  color: #f9d9a8;
+}
+
+.d-block {
+  border-radius: 2%;
+}
+
 #welcome1, #welcome2, #target {
-background-color: #f9d9a8;
+  font-weight: bold;
+}
+
+iframe {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 2%;
+  border: solid white 2px;
+}
+
+.menu, .photos, .carousel, .formulaire, .jumbotron-fluid {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }

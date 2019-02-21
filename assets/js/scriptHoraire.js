@@ -28,14 +28,14 @@
       document.getElementById("welcome1").innerHTML = (jour + " " + datec + " " + mois + " " + annee)
       document.getElementById("welcome2").innerHTML = (heure + "h" + pad2(minute));
 
-      if (heure < 18 && minute < 30) {
-        document.getElementById("target").innerHTML = "ouvert <i class='fas fa-heart'></i> ";
+      if (heure >= 8 && heure < 18 && minute < 30) {
+        document.getElementById("target").innerHTML = "ouverts <br><i class='fas fa-heart'></i> ";
         }
-      else if (heure < 17) {
-        document.getElementById("target").innerHTML = "ouvert <i class='fas fa-heart'></i>";
+      else if (heure >= 8 && heure < 17) {
+        document.getElementById("target").innerHTML = "ouverts <br><i class='fas fa-heart'></i>";
       }
       else {
-        document.getElementById("target").innerHTML = "fermé <i class='fas fa-heart-broken'></i>";
+        document.getElementById("target").innerHTML = "fermés <br><i class='fas fa-heart-broken'></i>";
       }
 
 })();
