@@ -4,7 +4,7 @@ Mon premier site en bootstrap
 
 ## Description :
 
-Un site pour une chaîne fictive de bars à cafés, en hommage à mes nombreuses heures passées dans leurs cousins réels ;-)
+Un site pour une chaîne fictive de bars à cafés, en hommage à mes nombreuses heures passées chez leurs cousins réels ;-)
 
 
 ## Date :
@@ -19,7 +19,7 @@ Réalisé entre le 18 et le 21 février 2019 en tant que stagiaire @ BeCode
 
 ## Framework utilisé :
 
-BootStrap
+Bootstrap
 
 ## Progression :
 
