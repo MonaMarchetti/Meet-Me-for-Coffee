@@ -1,38 +1,80 @@
 # bootstrap-resto-website
-Photo by Alexander Gilbertson on Unsplash
 
-Photo by Don Ross III on Unsplash
+Mon premier site en bootstrap
 
-Photo by Tyler Nix on Unsplash
+## Description :
 
-Photo by Clem Onojeghuo on Unsplash
+Un site pour une chaîne fictive de bars à cafés, en hommage à mes nombreuses heures passées dans leurs cousins réels ;-)
 
-Photo by Hannah Wei on Unsplash
 
-Photo by freestocks.org on Unsplash
+## Date :
 
-Photo by Robert Bye on Unsplash
+Réalisé entre le 18 et le 21 février 2019 en tant que stagiaire @ BeCode
 
-Photo by Jonathan Pielmayer on Unsplash
+## Langages utilisés :
 
-Photo by Chris Barbalis on Unsplash
++ HTML
++ CSS
++ JAVASCRIPT
 
-Photo by Maria Vernigora on Unsplash
+## Framework utilisé :
 
-Photo by frank mckenna on Unsplash
+BootStrap
 
-Photo by Food Photographer | Jennifer Pallian on Unsplash
+## Progression :
 
-Photo by Mike Marquez on Unsplash
+Projet terminé
 
-Photo by Nathan Dumlao on Unsplash
+## Liens utiles :
 
-Photo by Jon Tyson on Unsplash
+lien des consignes : <https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Restaurant_Bootstrap>
 
-Photo by Eric Gilkes on Unsplash
+lien github page : <https://monamarchetti.github.io/bootstrap-resto-website/>
 
-Photo by Luke Chesser on Unsplash
+## Aperçu du site :
 
-Photo by Crew on Unsplash
+![Apercu du site](assets/img/capturemeetmeforcoffee.png)
 
-Photo by Toa Heftiba on Unsplash
+## Crédits photos :
+
+Toutes les pĥotos viennent du site Unsplash. Voici la liste des photographes:
+
++ Alexander Gilbertson
+
++ Don Ross III
+
++ Tyler Nix
+
++ Clem Onojeghuo
+
++ Hannah Wei
+
++ freestocks.org
+
++ Robert Bye
+
++ Jonathan Pielmayer
+
++ Chris Barbalis
+
++ Maria Vernigora
+
++ frank mckenna
+
++ Food Photographer | Jennifer Pallian
+
++ Mike Marquez
+
++ Nathan Dumlao
+
++ Jon Tyson
+
++ Eric Gilkes
+
++ Luke Chesser
+
++ Crew
+
++ Toa Heftiba
+
+
