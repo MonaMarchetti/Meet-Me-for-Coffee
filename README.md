@@ -4,7 +4,7 @@ Mon premier site en bootstrap
 
 ## Description :
 
-Un site pour une chaîne fictive de bars à cafés, en hommage à mes nombreuses heures passées dans leurs cousins réels ;-)
+Un site pour une chaîne fictive de bars à cafés, en hommage à mes nombreuses heures passées chez leurs cousins réels ;-)
 
 
 ## Date :
@@ -37,7 +37,7 @@ lien github page : Chttps://monamarchetti.github.io/bootstrap-resto-website/>
 
 ## Crédits photos :
 
-Toutes les pĥotos viennent du site ![Unsplash](<https://unsplash.com/search/photos/coffee>). Voici la liste des photographes:
+Toutes les pĥotos viennent du site Unsplash : <https://unsplash.com/search/photos/coffee>. Voici la liste des photographes:
 
 + Alexander Gilbertson
 
