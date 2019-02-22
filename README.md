@@ -19,7 +19,7 @@ Réalisé entre le 18 et le 21 février 2019 en tant que stagiaire @ BeCode
 
 ## Framework utilisé :
 
-BootStrap
+Bootstrap
 
 ## Progression :
 
