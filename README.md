@@ -29,7 +29,7 @@ Projet terminé
 
 lien des consignes : <https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Restaurant_Bootstrap>
 
-lien github page : Chttps://monamarchetti.github.io/bootstrap-resto-website/>
+lien github page : <https://monamarchetti.github.io/bootstrap-resto-website/>
 
 ## Aperçu du site :
 
