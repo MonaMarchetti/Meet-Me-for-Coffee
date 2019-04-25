@@ -1,4 +1,4 @@
-# bootstrap-resto-website
+# Meet Me for Coffee
 
 Mon premier site en bootstrap
 
@@ -6,10 +6,9 @@ Mon premier site en bootstrap
 
 Un site pour une chaîne fictive de bars à cafés, en hommage à mes nombreuses heures passées chez leurs cousins réels ;-)
 
-
 ## Date :
 
-Réalisé entre le 18 et le 21 février 2019 en tant que stagiaire @ BeCode
+Réalisé entre le 18 et le 21 février 2019 en tant que stagiaire @ [BeCode](https://github.com/becodeorg)
 
 ## Langages utilisés :
 
@@ -27,9 +26,9 @@ Projet terminé
 
 ## Liens utiles :
 
-lien des consignes : <https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Restaurant_Bootstrap>
++ [Consignes](https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Restaurant_Bootstrap)
 
-lien github page : <https://monamarchetti.github.io/bootstrap-resto-website/>
++ [Github Page](https://monamarchetti.github.io/bootstrap-resto-website/)
 
 ## Aperçu du site :
 
@@ -37,7 +36,9 @@ lien github page : <https://monamarchetti.github.io/bootstrap-resto-website/>
 
 ## Crédits photos :
 
-Toutes les pĥotos viennent du site Unsplash : <https://unsplash.com/search/photos/coffee>. Voici la liste des photographes:
+Toutes les pĥotos sont libres de droits. 
+Elles proviennent du site [Unsplash](https://unsplash.com). 
+Voici la liste des photographes:
 
 + Alexander Gilbertson
 
