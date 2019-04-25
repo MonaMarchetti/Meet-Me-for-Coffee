@@ -28,7 +28,7 @@ Projet terminé
 
 + [Consignes](https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Restaurant_Bootstrap)
 
-+ [Github Page](https://monamarchetti.github.io/bootstrap-resto-website/)
++ [Github Page](https://monamarchetti.github.io/Meet-Me-for-Coffee/)
 
 ## Aperçu du site :
 
